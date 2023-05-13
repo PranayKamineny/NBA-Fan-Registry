@@ -1,0 +1,24 @@
+.outer{
+    background-color: whitesmoke;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+}
+.inner{
+    background-color: white;
+    border-color: red;
+    border-style: solid;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.header{
+    text-align: center;
+    font-size: 5rem;
+    color: blue;
+}
+.image{
+    margin-left: 32rem;
+}

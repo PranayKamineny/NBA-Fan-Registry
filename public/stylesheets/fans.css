@@ -1,0 +1,19 @@
+.outer{
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    margin-right: 15rem;
+    border-color: blue;
+    border-style: solid;
+}
+.image{
+    margin-left: 20rem;
+    margin-top: 1rem;
+    width: 50rem;
+    height: 30rem;
+}
+.header{
+    font-size: 3rem;
+    color: red;
+}

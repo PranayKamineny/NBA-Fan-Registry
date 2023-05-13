@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Roster List</title>
+	<link rel="stylesheet" href="/stylesheets/fans.css" type="text/css">
+</head>
+
+<body>
+	<div class="outer">
+		<h1 class="header">NBA Team Roster Request</h1>
+		<form action="http://localhost:5005/view" method="post">
+			<fieldset>
+				<label><strong>Enter your email: </strong><input type="email" name="email"/></label>
+			</fieldset>
+			<br>
+			<input type="reset" />
+			<input type="submit" id="submit" value="Request Roster"/>
+			<br><br>
+		</form>
+	</div>
+	<img class="image" id='image' src="/images/logos.jpg" alt='initial'>
+	<br><a href="/">Home</a>
+</body>
+
+</html>

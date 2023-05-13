@@ -1,0 +1,70 @@
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Fans</title>
+	<link rel="stylesheet" href="/stylesheets/fans.css" type="text/css">
+
+</head>
+
+<body>
+	<div class="outer">
+		<h1 class="header">NBA Fans Signup Page</h1>
+
+		<form action="http://localhost:5005/register" method="post">
+
+			<fieldset>
+				<label><strong>Name: </strong><input type="text" name="name"/></label>
+				<br><br>
+				<label><strong>Email Address: </strong><input type="email" name="email"></label>
+				<br><br>
+				<label><strong>Favorite Team: </strong>
+					<select name = "team">
+						<option value="Boston Celtics">Boston Celtics</option>
+						<option value="Brooklyn Nets">Brooklyn Nets</option>
+						<option value="New York Knicks">New York Knicks</option>
+						<option value="Philadelphia 76ers">Philadelphia 76ers</option>
+						<option value="Toronto Raptors">Toronto Raptors</option>
+						<option value="Chicago Bulls">Chicago Bulls</option>
+						<option value="Cleveland Cavaliers">Cleveland Cavaliers</option>
+						<option value="Detroit Pistons">Detroit Pistons</option>
+						<option value="Indiana Pacers">Indiana Pacers</option>
+						<option value="Milwaukee Bucks">Milwaukee Bucks</option>
+						<option value="Atlanta Hawks">Atlanta Hawks</option>
+						<option value="Charlotte Hornets">Charlotte Hornets</option>
+						<option value="Miami Heat">Miami Heat</option>
+						<option value="Orlando Magic">Orlando Magic</option>
+						<option value="Washington Wizards">Washington Wizards</option>
+						<option value="Denver Nuggets">Denver Nuggets</option>
+						<option value="Minnesota Timberwolves">Minnesota Timberwolves</option>
+						<option value="Oklahoma City Thunder">Oklahoma City Thunder</option>
+						<option value="Portland Trail Blazers">Portland Trail Blazers</option>
+						<option value="Utah Jazz">Utah Jazz</option>
+						<option value="Golden State Warriors">Golden State Warriors</option>
+						<option value="Los Angeles Clippers">Los Angeles Clippers</option>
+						<option value="Los Angeles Lakers">Los Angeles Lakers</option>
+						<option value="Phoenix Suns">Phoenix Suns</option>
+						<option value="Sacramento Kings">Sacremento Kings</option>
+						<option value="Dallas Mavericks">Dallas Mavericks</option>
+						<option value="Houston Rockets">Houston Rockets</option>
+						<option value="Memphis Grizzlies">Memphis Grizzlies</option>
+						<option value="New Orleans Pelicans">New Orleans Pelicans</option>
+						<option value="San Antonio Spurs">San Antonio Spurs</option>
+					</select>
+				</label>
+			</fieldset>
+	
+			<br>
+			<input type="reset" />
+			<input type="submit" id="submit" onclick = "return confirm(`You may not change your information once registered.\nContinue?`)" value="Register"/>
+			<br><br>
+		</form>
+	</div>
+	<img class="image" id='image' src="/images/logos.jpg" alt='initial'>
+	<br><a href="/">Home</a>
+</body>
+
+</html>
