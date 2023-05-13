@@ -71,6 +71,7 @@ app.post("/view", async (request, response) => {
             response.render("rosterdisplay", {roster: "Email is not registered!"});
         }
     } catch (e) {
+        console.write(3);
         console.error(e);
         response.render("index");
     } finally {
@@ -120,7 +121,6 @@ app.post("/view", async (request, response) => {
             }
         };
         try {
-            console.write(5);
             let teamInfo ="";
             teamInfo += `You are registered as a fan of the ${fanTeam}!<br>` 
             const teamdata = await fetch(detailsurl, options);
@@ -144,6 +144,7 @@ app.post("/view", async (request, response) => {
             teamInfo += "</table>";
             response.render("rosterdisplay", {roster: teamInfo});
         } catch (error) {
+            console.write(5);
             console.error(error);
             response.render("index");
         }
