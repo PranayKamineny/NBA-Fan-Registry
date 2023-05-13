@@ -120,6 +120,7 @@ app.post("/view", async (request, response) => {
             }
         };
         try {
+            console.write(5);
             let teamInfo ="";
             teamInfo += `You are registered as a fan of the ${fanTeam}!<br>` 
             const teamdata = await fetch(detailsurl, options);
