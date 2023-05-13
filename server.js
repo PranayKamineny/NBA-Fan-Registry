@@ -71,7 +71,6 @@ app.post("/view", async (request, response) => {
             response.render("rosterdisplay", {roster: "Email is not registered!"});
         }
     } catch (e) {
-        console.log(e);
         console.error(e);
         response.render("index");
     } finally {
@@ -145,7 +144,6 @@ app.post("/view", async (request, response) => {
             response.render("rosterdisplay", {roster: teamInfo});
         } catch (error) {
             console.log("HIII");
-            console.log(e);
             console.error(error);
             response.render("index");
         }
