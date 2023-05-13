@@ -1,6 +1,7 @@
 const path = require("path");
 const express = require("express");
 const app = express();
+const fetch = require("node-fetch");
 const bodyParser = require("body-parser");
 app.set("views", path.resolve(__dirname, "templates"));
 app.set("view engine", "ejs");
