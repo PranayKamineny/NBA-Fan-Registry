@@ -72,7 +72,7 @@ app.post("/view", async (request, response) => {
         }
     } catch (e) {
         console.error(e);
-        response.render("index");
+        //response.render("index");
     } finally {
         await client.close();
     }
