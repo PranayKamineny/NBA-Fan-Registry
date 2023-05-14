@@ -1,4 +1,4 @@
-const fetch = require("node-fetch");
+const fetch = require("node-fetch-commonjs");
 
 const path = require("path");
 const express = require("express");
